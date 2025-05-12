@@ -38,16 +38,16 @@ def test_pandas():
     assert not check_imports_pandas("homework/pregunta_10.py")
     assert not check_imports_pandas("homework/pregunta_11.py")
     assert not check_imports_pandas("homework/pregunta_12.py")
-
+ruta = r"files/input/data.csv"
 
 def test_01():
     """Test 01"""
-    assert pregunta_01.pregunta_01() == 214
+    assert pregunta_01.pregunta_01(ruta) == 214
 
 
 def test_02():
     """Test 02"""
-    assert pregunta_02.pregunta_02() == [
+    assert pregunta_02.pregunta_02(ruta) == [
         ("A", 8),
         ("B", 7),
         ("C", 5),
@@ -58,7 +58,7 @@ def test_02():
 
 def test_03():
     """Test 03"""
-    assert pregunta_03.pregunta_03() == [
+    assert pregunta_03.pregunta_03(ruta) == [
         ("A", 53),
         ("B", 36),
         ("C", 27),
@@ -69,7 +69,7 @@ def test_03():
 
 def test_04():
     """Test 04"""
-    assert pregunta_04.pregunta_04() == [
+    assert pregunta_04.pregunta_04(ruta) == [
         ("01", 3),
         ("02", 4),
         ("03", 2),
@@ -87,7 +87,7 @@ def test_04():
 
 def test_05():
     """Test 05"""
-    assert pregunta_05.pregunta_05() == [
+    assert pregunta_05.pregunta_05(ruta) == [
         ("A", 9, 2),
         ("B", 9, 1),
         ("C", 9, 0),
@@ -98,7 +98,7 @@ def test_05():
 
 def test_06():
     """Test 06"""
-    assert pregunta_06.pregunta_06() == [
+    assert pregunta_06.pregunta_06(ruta) == [
         ("aaa", 1, 9),
         ("bbb", 1, 9),
         ("ccc", 1, 10),
@@ -114,7 +114,7 @@ def test_06():
 
 def test_07():
     """Test 07"""
-    assert pregunta_07.pregunta_07() == [
+    assert pregunta_07.pregunta_07(ruta) == [
         (0, ["C"]),
         (1, ["E", "B", "E"]),
         (2, ["A", "E"]),
@@ -130,7 +130,7 @@ def test_07():
 
 def test_08():
     """Test 08"""
-    assert pregunta_08.pregunta_08() == [
+    assert pregunta_08.pregunta_08(ruta) == [
         (0, ["C"]),
         (1, ["B", "E"]),
         (2, ["A", "E"]),
