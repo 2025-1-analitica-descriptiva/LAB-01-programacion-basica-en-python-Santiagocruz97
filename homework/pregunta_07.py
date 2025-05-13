@@ -24,7 +24,7 @@ ruta = r"files/input/data.csv"
 list_tuple = pregunta_07(ruta)
 print(list_tuple)  
 """
-    Retorne una lista de tuplas que asocien las columnas 0 y 1. Cada tupla
+    Retone una lista de tuplas que asocien las columnas 0 y 1. Cada tupla
     contiene un valor posible de la columna 2 y una lista con todas las letras
     asociadas (columna 1) a dicho valor de la columna 2.
 
