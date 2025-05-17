@@ -146,7 +146,7 @@ def test_08():
 
 def test_09():
     """Test 09"""
-    assert pregunta_09.pregunta_09() == {
+    assert pregunta_09.pregunta_09(ruta) == {
         "aaa": 13,
         "bbb": 16,
         "ccc": 23,
@@ -162,7 +162,7 @@ def test_09():
 
 def test_10():
     """Test 10"""
-    assert pregunta_10.pregunta_10() == [
+    assert pregunta_10.pregunta_10(ruta) == [
         ("E", 3, 5),
         ("A", 3, 4),
         ("B", 4, 4),
@@ -208,7 +208,7 @@ def test_10():
 
 def test_11():
     """Test 11"""
-    assert pregunta_11.pregunta_11() == {
+    assert pregunta_11.pregunta_11(ruta) == {
         "a": 122,
         "b": 49,
         "c": 91,
@@ -221,7 +221,7 @@ def test_11():
 
 def test_12():
     """Test 12"""
-    assert pregunta_12.pregunta_12() == {
+    assert pregunta_12.pregunta_12(ruta) == {
         "A": 177,
         "B": 187,
         "C": 114,
